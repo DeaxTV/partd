@@ -8,7 +8,7 @@ export default function Index() {
     return (
         <>
             <Head>
-                <title>Home | Swôth</title>
+                <title>Home | deax</title>
             </Head>
             <Hero />
             <Activities />
