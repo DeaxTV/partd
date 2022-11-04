@@ -10,7 +10,7 @@ export default function Main()  {
         },
         {
             icon: <i className="fab text-3xl fa-discord" />,
-            title: 'Swôth#9990',
+            title: 'Deax#0001',
             href: 'https://discord.com/users/439450931579453440',
             desc: 'Discord'
         }
