@@ -5,7 +5,7 @@ import Tippy from '@tippyjs/react';
 import { useEffect, useState } from 'react';
 
 export default function Hero() {
-    const { data: _projects } = swr('https://swothh.github.io/projects/list.json', 600000);
+    const { data: _projects } = swr('https://deaxtv.github.io/projects/list.json', 600000);
     let projects = _projects ? _projects : null;
 
     const [ isSelected, setIsSelected ] = useState(false);
@@ -58,7 +58,7 @@ export default function Hero() {
                         </div>
                         <h1 className="leading-none text-white font-bold text-4xl">there,</h1>
                     </div>
-                    <h1 className="leading-none text-white font-bold text-4xl">I'm Swôth.</h1>
+                    <h1 className="leading-none text-white font-bold text-4xl">I'm deax.</h1>
                     <p className="pt-3 w-4/5 lg:w-8/12 mx-auto sm:mr-0 sm:ml-auto text-gray-400">Full-Stack Developer. I live in Turkey. I'm high school student and self-improvement person.</p>
                 </div>
             </div>
